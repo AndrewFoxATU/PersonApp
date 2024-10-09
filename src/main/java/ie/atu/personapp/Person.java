@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Person {
-    //
     @NotBlank(message = "You must enter a name")
     private String name;
     //
@@ -33,6 +32,5 @@ public class Person {
     //
     @NotBlank(message = "You must enter a department")
     private String department;
-    //
 
 }
